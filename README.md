@@ -38,13 +38,12 @@ This repository contains a collection of LeetCode problems I have solved, writte
 ## 📂 Repository Structure
 
 ```
-explore-project/
+leetcode-exercise/
 ├── README.md
-└── leetcode-exercise/
-    ├── <problem-slug>/
-    │   ├── solution.cpp              # C++ solution source
-    │   └── solution-explanation.md   # Detailed explanation + walkthrough
-    └── ...
+├── <problem-slug>/
+│   ├── solution.cpp              # C++ solution source
+│   └── solution-explanation.md   # Detailed explanation + walkthrough
+└── ...
 ```
 
 ### Folder Naming
@@ -89,10 +88,11 @@ Every `solution-explanation.md` follows a consistent 11-section structure:
 
 ## 📚 Problem Index
 
-| # | Problem | LeetCode # | Topics | Algorithm | Folder |
-|---|---------|------------|--------|-----------|--------|
-| 1 | Find the Safest Path in a Grid | 2812 | Grid BFS, Max-Heap, Widest Path | Multi-source BFS + Dijkstra (max-heap) | [find-the-safest-path-in-a-grid](./leetcode-exercise/find-the-safest-path-in-a-grid/) |
-| 2 | Find a Safe Walk Through a Grid | 3286 | Grid, Shortest Path, 0-1 Weights | 0-1 BFS with `deque` | [find-a-safe-walk-through-a-grid](./leetcode-exercise/find-a-safe-walk-through-a-grid/) |
+| # | Problem | LeetCode # | Difficulty | Topics | Algorithm | Folder |
+|---|---------|------------|------------|--------|-----------|--------|
+| 1 | Find the Safest Path in a Grid | 2812 | Medium | Grid BFS, Max-Heap, Widest Path | Multi-source BFS + Dijkstra (max-heap) | [find-the-safest-path-in-a-grid](./find-the-safest-path-in-a-grid/) |
+| 2 | Find a Safe Walk Through a Grid | 3286 | Medium | Grid, Shortest Path, 0-1 Weights | 0-1 BFS with `deque` | [find-a-safe-walk-through-a-grid](./find-a-safe-walk-through-a-grid/) |
+| 3 | Count the Number of Complete Components | 2685 | Medium | Graph, Union-Find, Connected Components | DSU (union by size + path halving) + clique-edge identity | [count-the-number-of-complete-components](./count-the-number-of-complete-components/) |
 
 > 📌 This table will be updated as new problems are added.
 
